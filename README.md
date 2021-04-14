@@ -97,6 +97,10 @@ Contact Us Page
 
 #### Fonts
 
+* Primary font - 'Nunito' was chosen as the charecters apear soft in the way the round at every end.
+* Secondary font - 'Lato' was chosen as this is a clear font and will be used for questions and answers so the users will not struggle to read it.
+* Back-up font - 'sans-serif' chosen as a back-up font as it's a standard universal font.
+
 #### Images
 
 Back to [Table of Contents](#table-of-contents)
