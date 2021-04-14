@@ -79,8 +79,32 @@ The primary goal of the Trivia World website is to provide a site where users ca
 
 I used [balsamiq.com](https://balsamiq.com/) to create the wireframes.
 
+Home Page
+
+![wireframe home page](assets/screenshots/wireframe_home_screenshot.png)
+
+Quizzes Page
+
+![wireframe quizzes page](assets/screenshots/wireframe_quizzes_screenshot.png)
+
+Contact Us Page
+
+![wireframe contact page](assets/screenshots/wireframe_contact_screenshot.png)
+
 ### Surface
+
+#### Colours
+
+#### Fonts
+
+#### Images
+
+Back to [Table of Contents](#table-of-contents)
+
 ## Features
+
+---
+
 ### Navigation Bar
 ### Home Page
 ### Quizzes Page
