@@ -43,11 +43,42 @@ This site has been created and designed for the user to test their knowledge on 
 - [Other Information](#other-information)
 - [Project Screenshots](#project-screenshots)
 
+---
+---
+
 ## UX
+
+---
+
 ### Project Goals
+
+The primary goal of the Trivia World website is to provide a site where users can visit to test their knowledge on subjects to relax and have fun. The website will therefore have a welcoming, consistant and soft feel to it for the design choices and colours picked.
+
 ### User Goals
+
+#### User goals:
+
+* User can easily navigate to quizzes.
+* User finds the site relax with a soft feel.
+* User has the option to submit ideas for new quizzes.
+
 ### User Stories
+
+#### As the site owner I would like:
+
+* To provide a relaxing and easy to use website which allows the user to test their knowledge on subjects.
+* Be contacted about new quiz ideas.
+
+#### As a new user to the site:
+
+* I would like to test my knowledge on different subjects.
+* Relax and unwind whilst having fun.
+* Contact the owner about new ideas for quizzes.
+
 ### Wireframes
+
+I used [balsamiq.com](https://balsamiq.com/) to create the wireframes.
+
 ### Surface
 ## Features
 ### Navigation Bar
