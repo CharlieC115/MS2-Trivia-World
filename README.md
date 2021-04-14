@@ -1,45 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Trivia World Website
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Interactive Front-End Development
 
 ---
 
-Happy coding!
+(Add screenshot of responsive design when site is complete)
+
+This site has been created and designed for the user to test their knowledge on different subjects, relax and have a little fun. The aim is to provide the user with a visually pleasing and fluid design throughout with responsive elements to aid the users experience.
+
+---
+---
+
+## Table of contents
+
+---
+
+- [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+    - [Home Page](#home-page)
+    - [Quizzes Page](#quizzes-page)
+    - [Contact Us Page](#contact-us-page)
+    - [Footer](#footer)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [User Story Testing](#user-story-testing)
+    - [Issues and Bugs](#issues-and-bugs)
+    - [Performance Testing](#performance-testing)
+    - [Code Validation](#code-validation)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Learning resources and styling ideas](#learning-resources-and-styling-ideas)
+    - [Code](#code)
+    - [Images Used](#images-used)
+- [Other Information](#other-information)
+- [Project Screenshots](#project-screenshots)
+
+## UX
+### Project Goals
+### User Goals
+### User Stories
+### Wireframes
+### Surface
+## Features
+### Navigation Bar
+### Home Page
+### Quizzes Page
+### Contact Us Page
+### Footer
+## Technologies Used
+## Testing
+### Functionality Testing
+### Compatibility Testing
+### User Story Testing
+### Issues and Bugs
+### Performance Testing
+### Code Validation
+## Deployment
+## Credits
+### Learning resources and styling ideas
+### Code
+### Images Used
+## Other Information
+## Project Screenshots
