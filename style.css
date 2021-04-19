@@ -146,6 +146,7 @@ nav a {
     display: block;
     text-align: left;
     margin-left: auto;
+    font-size: 18px;
 }
 
 .contact-form small {
@@ -199,6 +200,57 @@ nav a {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
+/*---------- index.html ---------- Footer -----*/
+
+footer {
+    background-color: #120078;
+    color: #FD3A69;
+    padding: 15px;
+}
+
+footer p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin: auto;
+}
+
+footer ul {
+    float: right;
+    padding: 0 16px;
+}
+
+footer i {
+    color: #120078;
+    background-color: #FD3A69;
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    padding: 6px;
+    font-size: 18px;
+    margin: 0 16px;
+}
+
+footer i:hover {
+    color: #120078;
+    background-color: #FD3A69;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+footer i:not(:hover) {
+    color: #120078;
+    background-color: #FD3A69;
+    transform: scale(1, 1);
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+}
+
 
 /*---------- index.html ---------- Bootstrap -----*/
 
