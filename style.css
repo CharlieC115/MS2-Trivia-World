@@ -87,3 +87,32 @@ nav a {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
 }
+
+/*---------- index.html ---------- Quizzes -----*/
+
+.home-quizzes {
+    background-color: #FD3A69;
+}
+
+.home-quiz-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 40%;
+    margin: 100px;
+}
+
+.home-quizzes img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.home-quizzes img:not(:hover) {
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
