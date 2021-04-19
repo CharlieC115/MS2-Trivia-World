@@ -124,8 +124,41 @@ Back to [Table of Contents](#table-of-contents)
 ### Code Validation
 ## Deployment
 ## Credits
+
+---
+
+Upon creating this project within GitHub I used the Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
 ### Learning resources and styling ideas
+
+* [Code Institute](https://learn.codeinstitute.net/login?next=/dashboard)
+    * Throughout this project I have referred back to lots of different modules to refresh myself on good practices.
+* [W3Schools](https://www.w3schools.com/)
+    * I have used this site throughout the course when looking for ideas or potential stylings to code.
+* [CSS-Tricks](https://css-tricks.com/)
+    * I have occasional visited this site for ideas and potential fixes throughout the course.
+* [Bootstrap](https://getbootstrap.com/)
+    * Throughout this project I have visited this site many times to create the pages structure and give ideas and coding examples.
+    * I have also read up on ever class I have used to understand exactly what it will do to the site when used.
+* [Stack Overflow](https://stackoverflow.com/)
+    * I have visited this site a few times throughout the course however I have avoided it whilst building this site as I wanted to work out how to do most of the code myself and not just see fixes.
+* [Code Academy](https://www.codecademy.com/)
+    * I have not visited this site recently however this is where I first started learning to code.
+* [Color Hunt](https://colorhunt.co/palettes/popular)
+    * I used Color Hunt to find a contrasting palette of four colours to use throughout the site.
+
 ### Code
 ### Images Used
+
+[Unsplash Images](https://unsplash.com/) 
+
+* hero_img.jpg - [qimono](https://pixabay.com/illustrations/question-mark-pile-questions-symbol-2492009/)
+
+* quiz_img1.jpg - [Cara Fuller](https://unsplash.com/photos/QF38t6obcnk)
+
+* quiz_img2.jpg - [redcharlie](https://unsplash.com/photos/jNtv6K1RFek)
+
+* quiz_img3.jpg - [Sid Balachandran](https://unsplash.com/photos/_9a-3NO5KJE)
+
 ## Other Information
 ## Project Screenshots
