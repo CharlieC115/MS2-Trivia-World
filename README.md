@@ -95,6 +95,12 @@ Contact Us Page
 
 #### Colours
 
+The colours used in this project are as follows:
+
+* #120078 - This colorr is primarily used as the navbar and footer background colour.
+* #FD3A69 - This is the secondary colour and is used both for font and as a background colour.
+* #FECD1A - This colour is the tertiary colour and is used as a background colour. 
+
 #### Fonts
 
 * Primary font - 'Nunito' was chosen as the charecters apear soft in the way the round at every end.
@@ -114,7 +120,44 @@ Back to [Table of Contents](#table-of-contents)
 ### Quizzes Page
 ### Contact Us Page
 ### Footer
-## Technologies Used
+## Technologies used
+
+---
+
+#### HTML5
+
+* Used as a structural language.
+
+#### CSS
+
+* Used as a style language.
+
+#### Bootstrap
+
+* [Boostrap](https://getbootstrap.com/) Version 4.3.1 used as a CSS framework to aid responsive design. A mobile first approach was taken.
+
+#### Font Awesome
+
+* [Font Awesome](https://fontawesome.com/) was used for social links, skiing and snowboarding headings and for table headings.
+
+#### Google Fonts
+
+* [Google Fonts](https://fonts.google.com/) used as a font resource.
+
+#### GitHub
+
+* [GitHub](https://github.com/) was used as the site's repository.
+
+#### Gitpod
+
+* [Gitpod](https://gitpod.io/workspaces/) was used as a development hosting platform.
+
+#### Wireframes
+
+* [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
+
+Back to [Table of Contents](#table-of-contents)
+
 ## Testing
 ### Functionality Testing
 ### Compatibility Testing
