@@ -325,3 +325,7 @@ footer i:not(:hover) {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
+#user-results {
+    display: none;
+}
