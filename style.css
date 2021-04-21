@@ -286,6 +286,7 @@ footer i:not(:hover) {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     text-align: center;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
