@@ -12,13 +12,30 @@ fetch("https://opentdb.com/api.php?amount=10&category=27&difficulty=easy&type=mu
             score: 0
         }
 
-        setupGame(gameState);
+        setupGame();
     });
 
-function setupGame(gameState) {
+// Code for stopping the button from submitting, increasing score by one when correct answer is selected and pulling the values for selected answer and correct answer
+function onAnswer(event) {
+    event.preventDefault();
+    let isCorrect = checkAnswer(gameState.questions[gameState.currentQuestion].correctAnswer,
+        event.target.textContent
+    );
+    gameState.score += (isCorrect ? 1 : 0);
     displayNextQuestion();
 }
 
+// Code for checking the selected answer against the actual answer
+function checkAnswer(correct, given) {
+    return correct === given;
+}
+
+function setupGame() {
+    [0, 1, 2, 3].forEach(i => document.getElementById(`answer-${i}`).addEventListener('click', onAnswer));
+    displayNextQuestion();
+}
+
+// Code for displaying the questions and answers within the heading and button tags in trivia.html
 function displayNextQuestion() {
     gameState.currentQuestion++;
     let question = gameState.questions[gameState.currentQuestion];
@@ -36,7 +53,7 @@ function loadQuestions(data) {
             answers.push(quest.correct_answer);
             return {
                 question: quest.question,
-                correct_answer: quest.correct_answer,
+                correctAnswer: quest.correct_answer,
                 answers
             };
         });
