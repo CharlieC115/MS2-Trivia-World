@@ -263,7 +263,6 @@ footer i:not(:hover) {
     -o-transition: all 0.75s ease-in-out;
 }
 
-
 /*---------- index.html ---------- Bootstrap -----*/
 
 .row {
@@ -273,13 +272,13 @@ footer i:not(:hover) {
 
 /*---------- trivia.html ---------- Questions -----*/
 
-.questions-section {
+#questions-section {
     background-color: #FD3A69;
     text-align: center;
     padding: 10% 0;
 }
 
-.questions-section h2 {
+#questions-section h2 {
     font-size: 24px;
     color: #fecd1a;
     letter-spacing: 2px;
@@ -290,7 +289,7 @@ footer i:not(:hover) {
     padding-bottom: 5%;
 }
 
-.questions-section button {
+#questions-section button {
     background-color: #fecd1a;
     color: #120078;
     font-size: 18px;
@@ -303,7 +302,7 @@ footer i:not(:hover) {
     margin: 20px;
 }
 
-.questions-section button:hover {
+#questions-section button:hover {
     background-color: #fecd1a;
     color: #120078;
     font-size: 18px;
@@ -319,7 +318,7 @@ footer i:not(:hover) {
     -o-transition: all 0.5s ease-in-out;
 }
 
-.questions-section button:not(hover) {
+#questions-section button:not(hover) {
     transform: scale(1);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
