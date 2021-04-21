@@ -42,6 +42,7 @@ function displayNextQuestion() {
 
     if (gameState.currentQuestion === gameState.questions.length - 1) {
         showEndGame()
+        document.getElementById('final-score').textContent = gameState.score;
     } else {
         gameState.currentQuestion++;
 
