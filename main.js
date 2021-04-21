@@ -30,19 +30,35 @@ function checkAnswer(correct, given) {
     return correct === given;
 }
 
+// Code used to add an event listener to each button
 function setupGame() {
     [0, 1, 2, 3].forEach(i => document.getElementById(`answer-${i}`).addEventListener('click', onAnswer));
     displayNextQuestion();
 }
 
 // Code for displaying the questions and answers within the heading and button tags in trivia.html
+// Code added for displaying score in trivia.html
 function displayNextQuestion() {
-    gameState.currentQuestion++;
-    let question = gameState.questions[gameState.currentQuestion];
-    document.getElementById('question').textContent = question.question;
-    question.answers.forEach((answer, i) => {
-        document.getElementById(`answer-${i}`).innerHTML = answer;
-    });
+
+    if (gameState.currentQuestion === gameState.questions.length - 1) {
+        showEndGame()
+    } else {
+        gameState.currentQuestion++;
+
+        // Code below is for UI
+        document.getElementById('score').textContent = gameState.score;
+        let question = gameState.questions[gameState.currentQuestion];
+        document.getElementById('question').innerHTML = question.question;
+        question.answers.forEach((answer, i) => {
+            document.getElementById(`answer-${i}`).innerHTML = answer;
+        });
+    }
+}
+
+// Code used to hide user results section until questions are finished and then it will hide questions section
+function showEndGame() {
+    document.getElementById('questions-section').style['display'] = 'none';
+    document.getElementById('user-results').style['display'] = 'block';
 }
 
 // Function for collecting the data needed from the API 4 answers, the correct answer and the question
