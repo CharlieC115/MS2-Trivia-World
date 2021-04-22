@@ -329,3 +329,15 @@ footer i:not(:hover) {
 #user-results {
     display: none;
 }
+
+.home-quizzes h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    font-size: 18px;
+    color: #120078;
+    letter-spacing: 2px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
