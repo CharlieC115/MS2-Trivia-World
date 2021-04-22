@@ -69,7 +69,7 @@ nav a {
 /*---------- index.html ---------- Hero Image -----*/
 
 .hero-image {
-    height: 95vh;
+    height: 80vh;
     background: url(assets/images/hero_img.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
