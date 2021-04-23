@@ -71,7 +71,7 @@ The primary goal of the Trivia World website is to provide a site where users ca
 
 #### As a new user to the site:
 
-* I would like to test my knowledge on different subjects.
+* I would like to test my knowledge.
 * Relax and unwind whilst having fun.
 * Contact the owner about new ideas for quizzes.
 
@@ -324,9 +324,62 @@ This site was tested across the following devices and browsers:
 
 ### User Story Testing
 
+#### As the site owner I would like:
+
+* To provide a relaxing and easy to use website which allows the user to test their knowledge on subjects.
+    * The site uses rounded text and softer colours.
+* Be contacted about new quiz ideas.
+    * The site has two places where a user can fill out a contact form with ideas.
+
+#### As a new user to the site:
+
+* I would like to test my knowledge.
+    * The site has a responsive animals quiz where users can text their knowledge.
+* Relax and unwind whilst having fun.
+    * Easy to navigated site with a final score display and little text to help people unwind.
+* Contact the owner about new ideas for quizzes.
+    * The site has two places where a user can fill out a contact form with ideas.
+
+##### Supporting screenshots
+
+![Trivia World Site Screenshot 1](assets/screenshots/finished_screenshot1.png)
+![Trivia World Site Screenshot 2](assets/screenshots/finished_screenshot2.png)
+![Trivia World Site Screenshot 3](assets/screenshots/finished_screenshot3.png)
+![Trivia World Site Screenshot 4](assets/screenshots/finished_screenshot4.png)
 
 ### Issues and Bugs
+
+All issues and bugs were found using google inspect and the responsive design tools. 
+
+Most Issues and Bugs were fixed as they arrose.
+
+Below I have explained the issues and how they were resolved:
+
+* Overflowing Content triggering a x axis scroll bar.
+
+This was happening due to Bootstraps .row margin having a -15px setting. To correct this I styled the .row class with a margin of 0. 
+
 ### Performance Testing
+
+#### Desktop Devices
+
+Before
+
+#### Mobile Devices
+
+Before
+
+#### Changes made to improve stats
+
+* Added rel="noopener" to all external link to improve performance.
+
+#### Potential future changes to improve this further
+
+* Import images in a different format
+* Add meta tags to headings
+* Reduce the file size of the images used
+* Import the fonts instead of linking
+
 ### Code Validation
 ## Deployment
 ## Credits
