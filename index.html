@@ -75,32 +75,35 @@
     <!-- /Quizzes -->
     <!-- Contact Us -->
     <section class="contact-form">
-        <div class="row">
-            <div class="col-12 home-contact-headers form-field">
-                <h2>Got ideas for a new quiz?</h2>
-                <h3>Please complete our form with your ideas!</h3>
+        <form onsubmit="return sendMail(this);">
+            <div class="row">
+                <div class="col-12 home-contact-headers form-field">
+                    <h2>Got ideas for a new quiz?</h2>
+                    <h3>Please complete our form with your ideas!</h3>
+                </div>
+                <div class="col-6 form-field">
+                    <label>First Name</label>
+                    <input type="text" name="firstname" id="fullname" placeholder="First Name" required />
+                </div>
+                <div class="col-6 form-field">
+                    <label>Last Name</label>
+                    <input type="text" name="lastname" id="fullname" placeholder="Last Name" required />
+                </div>
+                <div class="col-12 form-field">
+                    <label>Email Address</label>
+                    <input type="text" name="emailaddress" id="emailaddress" placeholder="Email" required />
+                    <small>This email will never be shared with anyone else.</small>
+                </div>
+                <div class="col-12 form-field">
+                    <label>Quiz Ideas!</label>
+                    <textarea rows="5" type="text" name="quizidea" id="quizidea"
+                        placeholder="Please tell us about your quiz idea..." required></textarea>
+                </div>
+                <div class="col-12 form-field">
+                    <button type="submit" class="btn btn-secondary center-block">Submit Quiz Idea!</button>
+                </div>
             </div>
-            <div class="col-6 form-field">
-                <label>First Name</label>
-                <input type="text" placeholder="First Name">
-            </div>
-            <div class="col-6 form-field">
-                <label>Last Name</label>
-                <input type="text" placeholder="Last Name">
-            </div>
-            <div class="col-12 form-field">
-                <label>Email Address</label>
-                <input type="email" placeholder="Email...">
-                <small>This email will never be shared with anyone else.</small>
-            </div>
-            <div class="col-12 form-field">
-                <label>Quiz Ideas!</label>
-                <textarea type="text" placeholder="Please type your quiz ideas here..." rows="3"></textarea>
-            </div>
-            <div class="col-12 form-field">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </div>
+        </form>
     </section>
     <!-- /Contact Us -->
     <!-- Footer -->
@@ -144,7 +147,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/email.js"></script>
 </body>
 
 </html>
