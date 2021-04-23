@@ -22,10 +22,15 @@
     padding: 8px 16px;
 }
 
+
+.navbar li {
+    margin: auto;
+}
+
 .navbar li a {
-    font-size: 18px;
+    font-size: 14px;
     padding: 4px;
-    margin: 4px 12px 0 12px;
+    margin: 4px 6px 6px;
 }
 
 nav a {
@@ -88,6 +93,8 @@ nav a {
 }
 
 .hero-image h1 {
+    margin: 10%;
+    text-align: center;
     font-size: 30px;
     color: #FD3A69;
     letter-spacing: 2px;
@@ -114,8 +121,8 @@ nav a {
 }
 
 .home-quiz-img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 40%;
     margin: 0 100px 100px 100px;
 }
@@ -142,7 +149,7 @@ nav a {
     background-color: #fecd1a;
     color: #120078;
     text-align: center;
-    padding: 100px;
+    padding: 10%;
 }
 
 .home-contact-headers {
@@ -225,7 +232,7 @@ nav a {
 footer {
     background-color: #120078;
     color: #FD3A69;
-    padding: 15px;
+    padding: 3%;
 }
 
 footer p {
@@ -236,7 +243,7 @@ footer p {
 
 footer ul {
     float: right;
-    padding: 0 16px;
+    padding: 0 2%;
 }
 
 footer i {
@@ -247,7 +254,7 @@ footer i {
     border-radius: 40%;
     padding: 6px;
     font-size: 18px;
-    margin: 0 16px;
+    margin: 0 2%;
 }
 
 footer i:hover {
@@ -305,7 +312,7 @@ footer i:not(:hover) {
     border-radius: 25px;
     letter-spacing: 2px;
     border: none;
-    width: 300px;
+    width: 200px;
     margin: 20px;
 }
 
