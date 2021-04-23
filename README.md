@@ -144,6 +144,10 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 * The fields are all mandatory to stop the user from submitting forms missing vital fields.
 * The inputted form data will refresh when the form is submitted without refreshing the entire page.
 
+### Footer
+
+* Links to social media pages so users can easily navigate to social pages of the group. These will open in a blank page so the user doesn't lose their place on the page.
+
 ### Quizzes Page
 
 #### Hero Image Section
@@ -157,7 +161,6 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 * This is clearly seperated from the other sections with a different background color.
 * This has an image of an animal/panda and the quiz title - Animals:easy so the user knows what the quiz is about.
 * The image grows when hovered over to give the user the confidence that this image is clickabe and will take them to the quiz.
-
 
 ### Contact Us Page
 
@@ -173,9 +176,12 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 * The fields are all mandatory to stop the user from submitting forms missing vital fields.
 * The inputted form data will refresh when the form is submitted without refreshing the entire page.
 
-### Footer
+### Triva Page
 
-* Links to social media pages so users can easily navigate to social pages of the group. These will open in a blank page so the user doesn't lose their place on the page.
+* This is clearly definied section where the questions and answers can be displayed.
+* When an answers is selected the next question will automatically display.
+* When the user has completed all the questions a congrats section will display with the users final result.
+* When the congrats section displays a message saying 'play again?' appears and the link to quiz displays.
 
 ### Future Features
 
