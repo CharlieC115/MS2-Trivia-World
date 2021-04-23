@@ -4,7 +4,7 @@
 
 ---
 
-(Add screenshot of responsive design when site is complete)
+![respponsive design image](assets/screenshots/trivia_world_screenshot.png)
 
 This site has been created and designed for the user to test their knowledge on different subjects, relax and have a little fun. The aim is to provide the user with a visually pleasing and fluid design throughout with responsive elements to aid the users experience.
 
@@ -108,6 +108,9 @@ The colours used in this project are as follows:
 * Back-up font - 'sans-serif' chosen as a back-up font as it's a standard universal font.
 
 #### Images
+
+* The quiz image comes from [Unplash.com](https://unsplash.com/) and the image is credited in the credits section of this readme file.
+* The hero/main image is from [pixabay](https://pixabay.com/) and the image is credited in the credits section of this readme file.
 
 Back to [Table of Contents](#table-of-contents)
 
