@@ -131,7 +131,7 @@ nav a {
 
 /*---------- index.html ---------- Contact Form -----*/
 
-.contact-form {
+#contact-form {
     background-color: #fecd1a;
     color: #120078;
     text-align: center;
@@ -153,7 +153,7 @@ nav a {
     font-weight: 700;
 }
 
-.contact-form label {
+#contact-form label {
     font-family: "Lato", sans-serif;
     display: block;
     text-align: left;
@@ -161,16 +161,16 @@ nav a {
     font-size: 18px;
 }
 
-.contact-form small {
+#contact-form small {
     font-family: "Lato", sans-serif;
     display: block;
     text-align: left;
     margin-left: auto;
 }
 
-.contact-form input[type=text],
-.contact-form input[type=email],
-.contact-form textarea[type=text] {
+#contact-form input[type=text],
+#contact-form input[type=email],
+#contact-form textarea[type=text] {
     width: 100%;
 }
 
@@ -178,7 +178,7 @@ nav a {
     padding-top: 25px;
 }
 
-.contact-form button {
+#contact-form button {
     background-color: #120078;
     color: #FD3A69;
     font-size: 18px;
@@ -189,7 +189,7 @@ nav a {
     border: none;
 }
 
-.contact-form button:hover {
+#contact-form button:hover {
     background-color: #120078;
     color: #FD3A69;
     font-size: 18px;
@@ -205,7 +205,7 @@ nav a {
     -o-transition: all 0.5s ease-in-out;
 }
 
-.contact-form button:not(hover) {
+#contact-form button:not(hover) {
     transform: scale(1);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
