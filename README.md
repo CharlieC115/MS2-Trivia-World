@@ -244,8 +244,29 @@ Back to [Table of Contents](#table-of-contents)
 
 Back to [Table of Contents](#table-of-contents)
 
+---
+---
+
 ## Testing
+
+---
+
 ### Functionality Testing
+
+I used google chrome developer tools throughout the project to text everything as I was working on it.
+
+Tested:
+
+#### Responsiveness
+
+Expected - The site is expected to respond to different screen sizes.
+
+Testing - Tested this by expanding and contracting the window size inside google inspect.
+
+Result- Site did not respond as expected due to lack of media queries.
+
+Fix - Added media quries and made some small changes to margins.
+
 ### Compatibility Testing
 ### User Story Testing
 ### Issues and Bugs
