@@ -79,7 +79,7 @@ nav a {
     -o-transition: all 0.5s ease-in-out;
 }
 
-/*---------- index.html ---------- Hero Image -----*/
+/*------------------------------------- Hero Image -----*/
 
 .hero-image {
     height: 50vh;
@@ -103,7 +103,7 @@ nav a {
     font-weight: 700;
 }
 
-/*---------- index.html ---------- Quizzes -----*/
+/*------------------------------------- Quizzes -----*/
 
 .home-quizzes {
     background-color: #FD3A69;
@@ -144,7 +144,7 @@ nav a {
     -o-transition: all 0.5s ease-in-out;
 }
 
-/*---------- index.html ---------- Contact Form -----*/
+/*------------------------------------- Contact Form -----*/
 
 #contact-form {
     background-color: #fecd1a;
@@ -185,7 +185,7 @@ nav a {
 
 #contact-form input[type=text],
 #contact-form input[type=email],
-#contact-form textarea[type=text] {
+#quizidea {
     width: 100%;
 }
 
@@ -228,7 +228,7 @@ nav a {
     -o-transition: all 0.5s ease-in-out;
 }
 
-/*---------- index.html ---------- Footer -----*/
+/*------------------------------------- Footer -----*/
 
 footer {
     background-color: #120078;
@@ -279,14 +279,14 @@ footer i:not(:hover) {
     -o-transition: all 0.75s ease-in-out;
 }
 
-/*---------- index.html ---------- Bootstrap -----*/
+/*------------------------------------- Bootstrap -----*/
 
 .row {
     padding: 0;
     margin: 0;
 }
 
-/*---------- trivia.html ---------- Questions -----*/
+/*------------------------------------- Questions -----*/
 
 #questions-section {
     background-color: #FD3A69;
@@ -357,6 +357,8 @@ footer i:not(:hover) {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/*------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 576px) {
     .navbar {
