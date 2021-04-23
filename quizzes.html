@@ -19,19 +19,27 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark navbar-fluid fixed-top">
+    <!-- Navbar was copied from Bootstrap (Heavily modified) -->
+    <nav class="navbar navbar-dark navbar-fluid fixed-top navbar-expand-sm">
         <a href="index.html" class="text-uppercase m-auto">Trivia World</a>
-        <ul class="nav m-auto">
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase active" href="quizzes.html">Quizzes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="contact.html">Contact Us</a>
-            </li>
-        </ul>
+        <!-- Hamburger menu was copied from Bootstrap (Heavily modified) -->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggle-bars"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase active" href="quizzes.html">Quizzes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- /Navbar -->
     <!-- Hero Image -->
