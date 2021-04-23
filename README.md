@@ -118,11 +118,65 @@ Back to [Table of Contents](#table-of-contents)
 
 ---
 
+The website consists of 3 pages home, quizzes and contact us. The websites features are listed below:
+
 ### Navigation Bar
+
+* Navbar has a fixed position at the top of every page. It is responsive and for extra small devices, mobile devices, this list of pages will collapse into a burger menu.
+* The site logo/title on the left side can be used as a link back to the home page.
+* The page names on the right can be used to navigate back and forth between home, quizzes and contact us.
+
 ### Home Page
+
+#### Hero Image Section
+
+* This section has an image of '?' piled up to relate to the purpose of the site and has a welcome message that users can see when they first come to the site.
+
+#### Quiz section
+
+* This is clearly seperated from the other sections with a different background color.
+* This has an image of an animal/panda and the quiz title - Animals:easy so the user knows what the quiz is about.
+* The image grows when hovered over to give the user the confidence that this image is clickabe and will take them to the quiz.
+
+#### Contact Us section
+
+* This is clearly seperated from the other sections with a different background color.
+* The fields are all mandatory to stop the user from submitting forms missing vital fields.
+* The inputted form data will refresh when the form is submitted without refreshing the entire page.
+
 ### Quizzes Page
+
+#### Hero Image Section
+
+(same as the home page to keep consistancy throughout the site)
+* This section has an image of '?' piled up to relate to the purpose of the site and has a welcome message that users can see when they first come to the site.
+
+#### Quiz section
+
+(same as the home page to keep consistancy throughout the site)
+* This is clearly seperated from the other sections with a different background color.
+* This has an image of an animal/panda and the quiz title - Animals:easy so the user knows what the quiz is about.
+* The image grows when hovered over to give the user the confidence that this image is clickabe and will take them to the quiz.
+
+
 ### Contact Us Page
+
+#### Hero Image Section
+
+(same as the home page to keep consistancy throughout the site)
+* This section has an image of '?' piled up to relate to the purpose of the site and has a welcome message that users can see when they first come to the site.
+
+#### Contact Us section
+
+(same as the home page to keep consistancy throughout the site)
+* This is clearly seperated from the other sections with a different background color.
+* The fields are all mandatory to stop the user from submitting forms missing vital fields.
+* The inputted form data will refresh when the form is submitted without refreshing the entire page.
+
 ### Footer
+
+* Links to social media pages so users can easily navigate to social pages of the group. These will open in a blank page so the user doesn't lose their place on the page.
+
 ## Technologies used
 
 ---
