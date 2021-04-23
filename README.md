@@ -177,6 +177,17 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 
 * Links to social media pages so users can easily navigate to social pages of the group. These will open in a blank page so the user doesn't lose their place on the page.
 
+### Future Features
+
+* Additional quizzes linked so the users have more options
+* A better luck next time page for when the user score 0 correct answers instead of a congrats page
+* Thank you for submitting section to display over the form when the user submits a form
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Technologies used
 
 ---
@@ -188,6 +199,10 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 #### CSS
 
 * Used as a style language.
+
+#### Javascript
+
+* Used as a functionality language.
 
 #### Bootstrap
 
@@ -212,6 +227,14 @@ The website consists of 3 pages home, quizzes and contact us. The websites featu
 #### Wireframes
 
 * [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
+
+#### EmailJS
+
+* [EmailJS](https://www.emailjs.com/) was used to have the form data sent to owners email when submit button was pressed.
+
+#### Open Trivia Database API
+
+* [Open Trivia Database API](https://opentdb.com/api_config.php) was use to provide the tivia questions with data.
 
 Back to [Table of Contents](#table-of-contents)
 
