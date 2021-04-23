@@ -267,8 +267,64 @@ Result- Site did not respond as expected due to lack of media queries.
 
 Fix - Added media quries and made some small changes to margins.
 
+#### Navbar links
+
+Expected - Navbar links and title will direct to the respective page and the title will act as an additional home link.
+
+Testing - Clicked on all the links inside each page.
+
+Result - All navbar elements working.
+
+#### Test text to background colour contrast
+
+Expected - it's expected that there is a clear contrast between text colour and background colour throughout the site.
+
+Testing - Used google inspect to hover over all texts and check contrast is ticked. Also read everything to check it was all clearly visible.
+
+Result - All text has a good contrast between itself and background colour.
+
+#### Submit Buttons
+
+Expected - Buttons will submit the data filled out in the form to the owner and enlarge when hovered over.
+
+Testing - Filed out the quiz ideas forms and submited and hovered over submit button.
+
+Result- Data was submitted and emailed to the host and buttons responded as expected.
+
+#### Social Links
+
+Expected - To be directed to the respective site.
+
+Testing - Clicked on all social links to see where they linked to. Also checked the :hover pseudo element is working by hovering on and off the links.
+
+Result - All links responded as expected and linked to the appropriate sites.
+
+#### Tested Navbar responsiveness
+
+Expected - Navbar items will stay inline fit within the page.
+
+Testing - Tested this by expanding and contracting the window size inside google inspect.
+
+Result - Responded as expected, navbar collapses into hamburger menu under 576px.
+
 ### Compatibility Testing
+
+This site was tested across the following devices and browsers:
+
+#### Devices
+
+* Hp Laptop using windows 10 home
+* Honor 20 pro mobile phone
+
+#### Browsers
+
+* Google Chrome
+* Mozila Fox
+* Microsoft Edge
+
 ### User Story Testing
+
+
 ### Issues and Bugs
 ### Performance Testing
 ### Code Validation
