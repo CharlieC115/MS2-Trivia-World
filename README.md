@@ -40,8 +40,6 @@ This site has been created and designed for the user to test their knowledge on 
     - [Learning resources and styling ideas](#learning-resources-and-styling-ideas)
     - [Code](#code)
     - [Images Used](#images-used)
-- [Other Information](#other-information)
-- [Project Screenshots](#project-screenshots)
 
 ---
 ---
@@ -361,13 +359,20 @@ This was happening due to Bootstraps .row margin having a -15px setting. To corr
 
 ### Performance Testing
 
-#### Desktop Devices
+#### Lighthouse Tools
 
 Before
 
-#### Mobile Devices
+![Image of lighthouse indicators](assets/screenshots/lighthouse_screenshot1.png)
 
-Before
+Changes made:
+
+* rel no opener add to external links 
+* image size reduced
+
+After
+
+![Image of lighthouse indicators](assets/screenshots/lighthouse_screenshot2.png)
 
 #### Changes made to improve stats
 
@@ -381,7 +386,43 @@ Before
 * Import the fonts instead of linking
 
 ### Code Validation
+
+At the end of the project, I used the validators below to validate the HTML and CSS code.
+
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+* [W3c CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Deployment
+
+---
+
+This project was deployed on GitHub pages. I used Gitpod as a development environment where all changes were committed to the repository in GitHub.
+
+To deploy the project I had to:
+
+* Log into GitHub and open the MS2-Trivia-World repository.
+* Got to settings and select GitHub pages from the menu on the right.
+* Select the first dropdown with 'none' and change to branch:master.
+* Click save and then refresh the page.
+
+The site is published at [https://charlies115.github.io/MS2-Trivia-World/](https://charlies115.github.io/MS2-Trivia-World/)
+
+To run locally:
+
+* Log into GitHub and open the MS2-Trivia-World repository.
+* Select Code and click download zip file.
+* After downloading you can save and open the file locally on your device.
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Credits
 
 ---
@@ -392,6 +433,8 @@ Upon creating this project within GitHub I used the Code Institute student templ
 
 * [Code Institute](https://learn.codeinstitute.net/login?next=/dashboard)
     * Throughout this project I have referred back to lots of different modules to refresh myself on good practices.
+* [Codementor](https://www.codementor.io/)
+    * I have paid for private 1:1 tuition to help my improve at javascript.
 * [W3Schools](https://www.w3schools.com/)
     * I have used this site throughout the course when looking for ideas or potential stylings to code.
 * [CSS-Tricks](https://css-tricks.com/)
@@ -407,17 +450,21 @@ Upon creating this project within GitHub I used the Code Institute student templ
     * I used Color Hunt to find a contrasting palette of four colours to use throughout the site.
 
 ### Code
+
+I have tried to do almost all the code and styling myself through trial and error and using google inspect.
+
+The most helpful resources for writing my code have been the code institute videos surrounding the EmailJS and my mentor. My private tutor 'Corrado' has been a great help in teaching my a more up to date version of javascript and helping me understand the code as a whole.
+
 ### Images Used
 
 [Unsplash Images](https://unsplash.com/) 
 
 * hero_img.jpg - [qimono](https://pixabay.com/illustrations/question-mark-pile-questions-symbol-2492009/)
 
-* quiz_img1.jpg - [Cara Fuller](https://unsplash.com/photos/QF38t6obcnk)
+* quiz_img1.jpg - [Sid Balachandran](https://unsplash.com/photos/_9a-3NO5KJE)
 
-* quiz_img2.jpg - [redcharlie](https://unsplash.com/photos/jNtv6K1RFek)
+---
 
-* quiz_img3.jpg - [Sid Balachandran](https://unsplash.com/photos/_9a-3NO5KJE)
+Thank you for reading.
 
-## Other Information
-## Project Screenshots
+Back to [Table of Contents](#table-of-contents)
