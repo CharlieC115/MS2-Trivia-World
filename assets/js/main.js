@@ -9,7 +9,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=27&difficulty=easy&type=mu
             questions: loadQuestions(json_data),
             currentQuestion: -1,
             score: 0
-        }
+        };
 
         setupGame();
     });
@@ -40,7 +40,7 @@ function setupGame() {
 function displayNextQuestion() {
 
     if (gameState.currentQuestion === gameState.questions.length - 1) {
-        showEndGame()
+        showEndGame();
         document.getElementById('final-score').textContent = gameState.score;
     } else {
         gameState.currentQuestion++;
@@ -57,8 +57,8 @@ function displayNextQuestion() {
 
 // Code used to hide user results section until questions are finished and then it will hide questions section
 function showEndGame() {
-    document.getElementById('questions-section').style['display'] = 'none';
-    document.getElementById('user-results').style['display'] = 'block';
+    document.getElementById('questions-section').style.display = 'none';
+    document.getElementById('user-results').style.display = 'block';
 }
 
 // Function for collecting the data needed from the API 4 answers, the correct answer and the question
